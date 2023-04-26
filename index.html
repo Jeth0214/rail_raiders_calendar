@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlR_riders Calendar</title>
+
+    <!-- font awesome cdn file link up  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <p class="current-date"></p>
+            <div class="next-month">
+                <button type="button" class="next-btn" id="next-month">
+                    <span> Next Month</span>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </header>
+
+        <div class="calendar">
+            <ul class="weeks">
+                <li>Sunday</li>
+                <li>Monday</li>
+                <li>Tuesday</li>
+                <li>Wednesday</li>
+                <li>Thursday</li>
+                <li>Friday</li>
+                <li>Saturday</li>
+            </ul>
+            <ul class="days"></ul>
+        </div>
+    </div>
+</body>
+
+</html>
