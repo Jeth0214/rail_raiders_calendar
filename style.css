@@ -133,26 +133,14 @@ header .current-date {
 }
 
 .days li.active {
-    color: #fff;
-}
-
-.days li::before {
-    position: absolute;
-    content: "";
-    left: 50%;
-    top: 50%;
-    height: 25px;
-    width: 35px;
-    z-index: -1;
-    border-radius: 10px;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.days li.active::before {
     background: var(--clr-primary);
+    border-radius: 8px;
+    color: var(--clr-white);
+    padding: 3px 10px;
+    font-size: 14px;
 }
+
+
 
 /* slots styling */
 .slot {
