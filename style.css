@@ -132,7 +132,7 @@ header .current-date {
     border-bottom: 1px solid var(--bg-inactive);
 }
 
-.days li.active {
+.days li span.active {
     background: var(--clr-primary);
     border-radius: 8px;
     color: var(--clr-white);
